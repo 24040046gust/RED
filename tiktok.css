@@ -1,0 +1,13 @@
+body { margin: 0; background-color: #000; }
+.tiktok-container { position: relative; width: 100vw; height: 100vh; overflow: hidden; font-family: 'Proxima Nova', sans-serif; color: #fff; }
+.video-background { width: 100%; height: 100%; object-fit: cover; }
+.video-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.6), transparent 50%); display: flex; flex-direction: column; justify-content: flex-end; padding: 20px; box-sizing: border-box; }
+.video-info h3 { margin: 0 0 10px; }
+.video-info p { margin: 0 0 10px; }
+.music-info { display: flex; align-items: center; }
+.music-info i { margin-right: 8px; }
+.video-actions { position: absolute; right: 10px; bottom: 100px; display: flex; flex-direction: column; align-items: center; }
+.action-item { text-align: center; margin-bottom: 20px; }
+.action-item i { font-size: 35px; }
+.action-item span { display: block; margin-top: 5px; font-weight: 600; }
+.back-button-tiktok { position: absolute; top: 20px; left: 20px; color: #fff; text-decoration: none; font-size: 1.2em; z-index: 10; background-color: rgba(0,0,0,0.4); padding: 8px 12px; border-radius: 5px; }
